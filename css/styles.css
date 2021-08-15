@@ -1,0 +1,77 @@
+body {
+  color: darkgreen;
+}
+.name-one {
+  color: deeppink;
+}
+.name-one:hover {
+  color: chartreuse;
+}
+.list {
+  color: firebrick;
+}
+.studio {
+  color: gold;
+}
+.port {
+  color: gold;
+}
+.contact {
+  color: gold;
+}
+.head {
+  color: green;
+}
+.head-two {
+  color: hotpink;
+}
+.name-two {
+  color: lawngreen;
+}
+.head-main {
+  color: mediumpurple;
+  background-color: maroon;
+}
+.info {
+  color: orange;
+}
+.mail {
+  color: palegreen;
+}
+.mail-one {
+  color: red;
+}
+.title {
+  color: yellow;
+}
+.title:hover {
+  color: tomato;
+}
+.title:focus {
+  color: dimgray;
+}
+.service {
+  color: mediumaquamarine;
+}
+.service:hover {
+  color: mediumorchid;
+  background-color: mediumseagreen;
+}
+.service:focus {
+  color: orange;
+}
+.shop {
+  color: orange;
+  background-color: palegreen;
+}
+.punctuality,
+.technology {
+  color: palevioletred;
+  background-color: purple;
+}
+.instagram {
+  color: salmon;
+}
+.social {
+  color: tomato;
+}
