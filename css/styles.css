@@ -3,6 +3,7 @@ body {
 }
 .name-one {
   color: deeppink;
+  font-size: 50px;
 }
 .name-one:hover {
   color: chartreuse;
@@ -72,6 +73,44 @@ body {
 .instagram {
   color: salmon;
 }
-.social {
+.staff {
+  color: yellow;
+  background-color: violet;
+}
+.inst,
+.twit,
+.face,
+.link {
+  color: white;
+}
+.title {
+  text-decoration: line-through;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 30px;
+}
+.text {
+  text-indent: 50px;
+}
+.plan {
+  font-size: 18px;
+  line-height: 2;
+}
+.name-two {
+  font-size: 80px;
+}
+.head,
+.head-two,
+.contact {
+  font-size: 16px;
+}
+.head-three {
   color: tomato;
+  font-size: 16px;
+}
+.names {
+  font-weight: 700;
+}
+.mykola {
+  font-weight: 100;
 }
