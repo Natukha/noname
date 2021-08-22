@@ -1,119 +1,71 @@
+:root {
+  --main-color: #212121;
+  --accent-color: #2196f3;
+}
 body {
-  color: darkgreen;
+  color: var (--main-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 .name-one {
-  color: deeppink;
-  font-size: 50px;
-}
-.name-one:hover {
-  color: chartreuse;
-}
-.list {
-  color: firebrick;
-}
-.studio {
-  color: gold;
-}
-.port {
-  color: gold;
-}
-.contact {
-  color: gold;
-}
-.head {
-  color: green;
-}
-.head-two {
-  color: hotpink;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+  text-decoration: none;
 }
 .name-two {
-  color: lawngreen;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.38;
+  color: var(--main-color);
+  text-decoration: none;
 }
-.head-main {
-  color: mediumpurple;
-  background-color: maroon;
+.studio,
+.port,
+.contact {
+  text-decoration: none;
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
-.info {
-  color: orange;
-}
-.mail {
-  color: palegreen;
+.studio:hover,
+.studio:focus,
+.port:hover,
+.port:focus,
+.contact:hover,
+.contact:focus {
+  color: var(--accent-color);
 }
 .mail-one {
-  color: red;
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.number {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+}
+.mail-one:hover,
+.mail-one:focus {
+  color: var(--accent-color);
 }
 .title {
-  color: yellow;
-}
-.title:hover {
-  color: tomato;
-}
-.title:focus {
-  color: dimgray;
-}
-.service {
-  color: mediumaquamarine;
-}
-.service:hover {
-  color: mediumorchid;
-  background-color: mediumseagreen;
-}
-.service:focus {
-  color: orange;
-}
-.shop {
-  color: orange;
-  background-color: palegreen;
-}
-.punctuality,
-.technology {
-  color: palevioletred;
-  background-color: purple;
-}
-.instagram {
-  color: salmon;
-}
-.staff {
-  color: yellow;
-  background-color: violet;
-}
-.inst,
-.twit,
-.face,
-.link {
-  color: white;
-}
-.title {
-  text-decoration: line-through;
-  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
   text-align: center;
-  letter-spacing: 30px;
-}
-.text {
-  text-indent: 50px;
-}
-.plan {
-  font-size: 18px;
-  line-height: 2;
-}
-.name-two {
-  font-size: 80px;
-}
-.head,
-.head-two,
-.contact {
-  font-size: 16px;
-}
-.head-three {
-  color: tomato;
-  font-size: 16px;
-}
-.names {
-  font-weight: 700;
-}
-.mykola {
-  font-weight: 100;
-}
-.main .shop {
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: #ffffff;
 }
