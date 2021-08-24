@@ -1,6 +1,8 @@
 :root {
   --main-color: #212121;
   --accent-color: #2196f3;
+  --add-color: #757575;
+  --add-color-two: #ffffff;
 }
 body {
   color: var (--main-color);
@@ -8,36 +10,27 @@ body {
   letter-spacing: 0.03em;
 }
 .name-one {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent-color);
-  text-decoration: none;
 }
 .name-two {
   font-weight: 400;
   font-size: 26px;
   line-height: 1.38;
   color: var(--main-color);
-  text-decoration: none;
 }
-.studio,
-.port,
-.contact {
-  text-decoration: none;
+.hat {
   color: var(--main-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.studio:hover,
-.studio:focus,
-.port:hover,
-.port:focus,
-.contact:hover,
-.contact:focus {
+.hat:hover,
+.hat:focus {
   color: var(--accent-color);
 }
 .mail-one {
@@ -46,15 +39,13 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
 .number {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
-  text-decoration: none;
+  color: var(--add-color);
 }
 .mail-one:hover,
 .mail-one:focus {
@@ -67,5 +58,96 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--add-color-two);
+}
+.service {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--add-color-two);
+}
+h2 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+a {
+  text-decoration: none;
+}
+p {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--add-color);
+}
+.goals {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--main-color);
+}
+h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--add-color-two);
+}
+.comand {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--main-color);
+}
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: var(--main-color);
+}
+.profession {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: var(--add-color);
+}
+.logo-one {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+}
+.logo-two {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--add-color-two);
+}
+.location {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--add-color-two);
+}
+.phone {
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+.subscribe {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--add-color-two);
 }
