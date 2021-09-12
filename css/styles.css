@@ -1,7 +1,10 @@
+html {
+  box-sizing: border-box;
+}
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  box-sizing: inherit;
 }
 :root {
   --main-color: #212121;
@@ -13,6 +16,18 @@ body {
   color: var (--main-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
+}
+.container-nav {
+  display: flex;
+}
+.attention {
+  display: flex;
+  background-color: cyan;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  background-color: chartreuse;
 }
 .name-one {
   font-family: Raleway, sans-serif;
@@ -64,6 +79,27 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--add-color-two);
+  background-color: rgb(30, 214, 61);
+  padding: 15px;
+  margin: 0 auto;
+  border-radius: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.names {
+  display: flex;
+  justify-content: space-between;
+  background-color: cornflowerblue;
+}
+.clients {
+  display: flex;
+  justify-content: space-between;
+  background-color: cyan;
+}
+.last {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(12, 1, 12);
 }
 .button {
   font-weight: 700;
@@ -156,4 +192,23 @@ h3 {
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--add-color-two);
+}
+.head-main {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(226, 193, 226);
+}
+.head-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(219, 168, 26);
+}
+.comtainer-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(58, 219, 26);
+}
+.comtainer-nav li {
+  margin-right: 50px;
+  outline: tomato;
 }
