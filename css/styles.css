@@ -23,11 +23,13 @@ body {
 .attention {
   display: flex;
   background-color: cyan;
+  list-style-type: none;
 }
 .list {
   display: flex;
   justify-content: space-between;
   background-color: chartreuse;
+  list-style-type: none;
 }
 .name-one {
   font-family: Raleway, sans-serif;
@@ -90,11 +92,13 @@ body {
   display: flex;
   justify-content: space-between;
   background-color: cornflowerblue;
+  list-style-type: none;
 }
 .clients {
   display: flex;
   justify-content: space-between;
   background-color: cyan;
+  list-style-type: none;
 }
 .last {
   display: flex;
@@ -211,4 +215,5 @@ h3 {
 .comtainer-nav li {
   margin-right: 50px;
   outline: tomato;
+  list-style-type: none;
 }
