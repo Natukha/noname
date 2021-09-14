@@ -17,26 +17,13 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
-.container-nav {
-  display: flex;
-}
-.attention {
-  display: flex;
-  background-color: cyan;
-  list-style-type: none;
-}
-.list {
-  display: flex;
-  justify-content: space-between;
-  background-color: chartreuse;
-  list-style-type: none;
-}
 .name-one {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent-color);
+  text-decoration: none;
 }
 .name-two {
   font-weight: 700;
@@ -50,6 +37,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .hat:hover,
 .hat:focus {
@@ -61,6 +49,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .number {
   font-weight: 500;
@@ -68,103 +57,46 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--add-color);
+  text-decoration: none;
 }
 .mail-one:hover,
 .mail-one:focus {
   color: var(--accent-color);
 }
-.title {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--add-color-two);
-  background-color: rgb(30, 214, 61);
-  padding: 15px;
-  margin: 0 auto;
-  border-radius: 20px;
-  margin-right: auto;
-  margin-left: auto;
-}
-.names {
-  display: flex;
-  justify-content: space-between;
-  background-color: cornflowerblue;
+.hipperlink {
   list-style-type: none;
-}
-.clients {
+  background-color: aqua;
   display: flex;
   justify-content: space-between;
-  background-color: cyan;
-  list-style-type: none;
 }
-.last {
-  display: flex;
-  justify-content: space-between;
-  background-color: rgb(12, 1, 12);
-}
-.button {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: var(--add-color-two);
-  background-color: var(--accent-color);
-}
-h2 {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--main-color);
-}
-a {
+.hipper {
   text-decoration: none;
-}
-p {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--add-color);
-}
-.goals {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  color: var(--main-color);
-}
-h3 {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-align: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--add-color-two);
-}
-.comand {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  color: var(--main-color);
-}
-.name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.18;
-  text-align: center;
+  line-height: 1.62;
   color: var(--main-color);
 }
-.profession {
+.comtainer-nav li {
+  margin-right: 50px;
+  outline: tomato;
+  list-style-type: none;
+}
+.project {
+  list-style-type: none;
+  background-color: aquamarine;
+  justify-content: center;
+}
+.project-list {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var (--main-color);
+}
+.text-in {
+  font-weight: 400;
   font-size: 16px;
-  line-height: 1.18;
-  text-align: center;
+  line-height: 1.87;
   color: var(--add-color);
 }
 .logo-one {
@@ -197,15 +129,15 @@ h3 {
   text-transform: uppercase;
   color: var(--add-color-two);
 }
+.last {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(12, 1, 12);
+}
 .head-main {
   display: flex;
   justify-content: space-between;
   background-color: rgb(226, 193, 226);
-}
-.head-nav {
-  display: flex;
-  justify-content: space-between;
-  background-color: rgb(219, 168, 26);
 }
 .comtainer-nav {
   display: flex;
@@ -217,4 +149,9 @@ h3 {
   outline: tomato;
   /* нема outline? */
   list-style-type: none;
+}
+.head-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(219, 168, 26);
 }
