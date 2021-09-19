@@ -44,34 +44,53 @@ body {
   line-height: 1.38;
   color: var(--main-color);
 }
-.hat {
+.item {
   color: var(--main-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.hat:hover,
-.hat:focus {
+.item:hover,
+.item:focus {
   color: var(--accent-color);
 }
-.mail-one {
+/* .mail-one {
   color: var(--main-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-}
-.number {
+} */
+/* .number {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--add-color);
+} */
+.info {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--add-color);
 }
-.mail-one:hover,
-.mail-one:focus {
+.info:hover,
+.info:focus {
   color: var(--accent-color);
+}
+.contacts {
+  display: flex;
+  outline: 1px solid tomato;
+  list-style-type: none;
+  margin-left: 331px;
+}
+.contacts li {
+  margin-left: 50px;
+}
+.contacts.info:last-child {
+  margin-left: 0;
 }
 .title {
   font-weight: 900;
@@ -197,12 +216,13 @@ h3 {
   text-transform: uppercase;
   color: var(--add-color-two);
 }
-.head-main {
+.head {
   display: flex;
   justify-content: space-between;
   background-color: rgb(226, 193, 226);
+  outline: 1px solid tomato;
 }
-.head-nav {
+.navigation {
   display: flex;
   justify-content: space-between;
   background-color: rgb(219, 168, 26);
@@ -214,7 +234,10 @@ h3 {
 }
 .comtainer-nav li {
   margin-right: 50px;
-  outline: tomato;
+  outline: 1px solid tomato;
   /* нема outline? */
   list-style-type: none;
+}
+.comtainer-nav .item:last-child {
+  margin-right: 0;
 }

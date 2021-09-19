@@ -146,8 +146,8 @@ body {
 }
 .comtainer-nav li {
   margin-right: 50px;
-  outline: tomato;
-  /* нема outline? */
+  outline: 1px solid tomato;
+  /* нема outline? вже є: пропустила 1px solid*/
   list-style-type: none;
 }
 .head-nav {
