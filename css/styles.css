@@ -17,8 +17,31 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
-.container-nav {
+.comtainer-nav {
   display: flex;
+  background-color: rgb(58, 219, 26);
+}
+.comtainer-nav .item {
+  margin-right: 50px;
+  background-color: bisque;
+  outline: 1px solid tomato;
+}
+.comtainer-nav .item:last-child {
+  margin-right: 0;
+}
+.comtainer-nav li {
+  list-style-type: none;
+}
+.item {
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.item:hover,
+.item:focus {
+  color: var(--accent-color);
 }
 .attention {
   display: flex;
@@ -37,6 +60,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent-color);
+  margin-left: 215px;
 }
 .name-two {
   font-weight: 700;
@@ -44,40 +68,26 @@ body {
   line-height: 1.38;
   color: var(--main-color);
 }
-.item {
+.mail {
   color: var(--main-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.item:hover,
-.item:focus {
+.number {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--add-color);
+}
+.mail:hover,
+.mail:focus {
   color: var(--accent-color);
 }
-/* .mail-one {
-  color: var(--main-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-} */
-/* .number {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--add-color);
-} */
-.info {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--add-color);
-}
-.info:hover,
-.info:focus {
+.number:hover,
+.number:focus {
   color: var(--accent-color);
 }
 .contacts {
@@ -86,12 +96,16 @@ body {
   list-style-type: none;
   margin-left: 331px;
 }
-.contacts li {
+.contacts .number {
   margin-left: 50px;
+  margin-right: 215px;
+  outline: 1px solid tomato;
 }
-.contacts.info:last-child {
-  margin-left: 0;
-}
+/* .contacts .mail {
+  margin-left: 331px;
+  margin-right: 0;
+  outline: 1px solid tomato;
+} */
 .title {
   font-weight: 900;
   font-size: 44px;
@@ -101,9 +115,7 @@ body {
   text-transform: uppercase;
   color: var(--add-color-two);
   background-color: rgb(30, 214, 61);
-  padding: 15px;
   margin: 0 auto;
-  border-radius: 20px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -218,26 +230,14 @@ h3 {
 }
 .head {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
   background-color: rgb(226, 193, 226);
   outline: 1px solid tomato;
+  width: 1600px;
+  left: 0px;
+  top: 0px;
 }
 .navigation {
   display: flex;
-  justify-content: space-between;
-  background-color: rgb(219, 168, 26);
-}
-.comtainer-nav {
-  display: flex;
-  justify-content: space-between;
-  background-color: rgb(58, 219, 26);
-}
-.comtainer-nav li {
-  margin-right: 50px;
-  outline: 1px solid tomato;
-  /* нема outline? */
-  list-style-type: none;
-}
-.comtainer-nav .item:last-child {
-  margin-right: 0;
+  background-color: #ffffff;
 }
