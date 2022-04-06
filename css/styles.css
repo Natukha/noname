@@ -21,6 +21,9 @@ ul {
   padding: 0;
   margin: 0;
 }
+img{
+  display: block;
+  }
 .container {
   width: 1200px;
   margin-left: auto;
@@ -42,14 +45,18 @@ ul {
   background-image: url(/images/Headerimg.png);
   padding-top: 200px;
   padding-bottom: 280px;
+  margin-bottom: 46px;
 }
-.button {
-  margin-top: 30px;
-}
+.details {
+  background: #F5F4FA;
+  border-radius: 4px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  }
 .container-nav .item {
   padding: 0;
   margin-right: 50px;
-  outline: 1px solid tomato;
   list-style-type: none;
 }
 .container-nav .item:last-child {
@@ -68,14 +75,22 @@ ul {
 }
 .attention {
   display: flex;
-  background-color: cyan;
   list-style-type: none;
+  margin: -15px;
 }
 .list {
   display: flex;
   justify-content: space-between;
   background-color: chartreuse;
   list-style-type: none;
+}
+.additions{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--add-color-two);
 }
 .name-one {
   font-family: Raleway, sans-serif;
@@ -121,8 +136,7 @@ ul {
 }
 .contacts .number {
   margin-left: 50px;
-  outline: 1px solid tomato;
-}
+  }
 /* .contacts .mail {
   margin-left: 331px;
   margin-right: 0;
@@ -136,16 +150,14 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--add-color-two);
-  background-color: rgb(30, 214, 61);
-  margin: 0 auto;
-  margin-right: auto;
-  margin-left: auto;
   margin-bottom: 30px;
-}
+  }
 .names {
   display: flex;
   justify-content: space-between;
-  background-color: cornflowerblue;
+  list-style-type: none;
+}
+.social{
   list-style-type: none;
 }
 .clients {
@@ -156,8 +168,7 @@ ul {
 }
 .last {
   background-color: rgb(12, 1, 12);
-  width: 1200px;
-}
+ }
 .button {
   font-weight: 700;
   font-size: 16px;
@@ -166,6 +177,16 @@ ul {
   letter-spacing: 0.06em;
   color: var(--add-color-two);
   background-color: var(--accent-color);
+  padding-top: 10px;
+  padding-left: 32px;
+  padding-bottom: 10px;
+  padding-right: 32px;
+  border-radius: 4px;
+  margin-top: 30px;
+}
+.atten-details{
+  width: 270px;
+  margin: 15px;
 }
 h2 {
   font-weight: 700;
@@ -184,13 +205,6 @@ p {
   letter-spacing: 0.03em;
   color: var(--add-color);
 }
-.goals {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  color: var(--main-color);
-}
 h3 {
   font-weight: 700;
   font-size: 14px;
@@ -206,6 +220,7 @@ h3 {
   line-height: 1.16;
   text-align: center;
   color: var(--main-color);
+  text-transform: none;
 }
 .name {
   font-weight: 500;
@@ -264,5 +279,4 @@ h3 {
 }
 .head {
   display: flex;
-  outline: 1px solid tomato;
-}
+  }
