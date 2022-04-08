@@ -134,9 +134,14 @@ img {
 
 .hipperlink {
   list-style-type: none;
-  background-color: aqua;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+}
+.tree {
+  margin-right: 8px;
+}
+.tree:last-child {
+  margin-right: 0;
 }
 .hipper {
   text-decoration: none;
@@ -144,7 +149,16 @@ img {
   font-size: 16px;
   line-height: 1.62;
   color: var(--main-color);
+  padding: 6px 22px;
+  background-color: #F5F4FA;
+  border-radius: 4px;
 }
+.hipper:hover,
+.hipper:focus {
+  color: var(--add-color-two);
+  background-color: var(--accent-color);
+}
+
 .project {
   list-style-type: none;
   background-color: aquamarine;
