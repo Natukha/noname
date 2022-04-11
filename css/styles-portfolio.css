@@ -136,6 +136,8 @@ img {
   list-style-type: none;
   display: flex;
   justify-content: center;
+  margin-bottom: 34px;
+  margin-top: 93px;
 }
 .tree {
   margin-right: 8px;
@@ -152,6 +154,7 @@ img {
   padding: 6px 22px;
   background-color: #F5F4FA;
   border-radius: 4px;
+  border: none;
 }
 .hipper:hover,
 .hipper:focus {
@@ -160,9 +163,23 @@ img {
 }
 
 .project {
+  display: flex;
+  flex-wrap: wrap;
   list-style-type: none;
-  background-color: aquamarine;
   justify-content: center;
+  /* background-color: aqua; */
+}
+.item-port {
+  width: 370px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.item-port:nth-child(3n) {
+  margin-right: 0;
+}
+.item-port:nth-last-child(-n+3) {
+  margin-bottom: 0;
 }
 .project-list {
   font-weight: 700;
@@ -208,7 +225,7 @@ img {
   color: var(--add-color-two);
 }
 .last {
-  /* display: flex;
-  justify-content: space-between; */
+  display: flex;
+  justify-content: space-between;
   background-color: rgb(12, 1, 12);
 }

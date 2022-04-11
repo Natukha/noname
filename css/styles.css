@@ -172,6 +172,7 @@ img{
 }
 .last {
   background-color: rgb(12, 1, 12);
+  /* display: flex; */
  }
 .button {
   font-weight: 700;
