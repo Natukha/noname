@@ -136,8 +136,11 @@ img {
   list-style-type: none;
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
-  margin-top: 93px;
+  padding-top: 100px;
+  padding-bottom: 56px;
+
+  /* margin-bottom: 34px;
+  margin-top: 93px; */
 }
 .tree {
   margin-right: 8px;
@@ -167,6 +170,9 @@ img {
   flex-wrap: wrap;
   list-style-type: none;
   justify-content: center;
+  padding-bottom: 94px;
+
+  /* background-image: linear-gradient(to top, tomato, teal); */
   /* background-color: aqua; */
 }
 .item-port {
