@@ -229,30 +229,7 @@ margin-right: auto;
   list-style-type: none;
   
 }
-.desktop {
-background-image: linear-gradient(to right,
-      rgba(47, 48, 58, 0.8),
-      rgba(47, 48, 58, 0.8)),
-    url(/images/img.png);
-padding-top: 27px;
-padding-bottom: 27px;
-max-width: 370px;
-  max-height: 294px;
-  margin-left: auto;
-  margin-right: auto;
-  }
-.mobile {
-  background-image: linear-gradient(to right,
-        rgba(47, 48, 58, 0.8),
-        rgba(47, 48, 58, 0.8)),
-      url(./images/phone.png);
-}
-.design {
-  background-image: linear-gradient(to right,
-        rgba(47, 48, 58, 0.8),
-        rgba(47, 48, 58, 0.8)),
-      url(./images/black.png);
-}
+
 .add {
   font-weight: 700;
   font-size: 14px;
@@ -262,8 +239,11 @@ max-width: 370px;
   text-transform: uppercase;
   color: var(--add-color-two);
   margin: 0;
- 
-}
+  padding-top: 27px;
+  padding-bottom: 27px;
+  background-color: rgba(47, 48, 58, 0.8);
+ }
+
 .commands {
   background: #F5F4FA;
   padding-top: 94px;
